@@ -1,0 +1,138 @@
+.calc {
+    margin: 10% auto;
+    width: 380px;
+    height: 520px;
+    background-color: rgb(2, 255, 230);
+    color: rgb(70, 70, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 4px 4px 4px #ababab;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text {
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    margin-bottom: 3px;
+}
+
+.calc-screen {
+    width: 380px;
+    height: 90px;
+    display: grid;
+    grid-template-areas: "result result result C";
+    justify-items: center;
+    margin-bottom: 1.900px;
+}
+
+.C {
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    justify-content: center;
+    line-height: 85px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    background: rgb(255, 98, 0);
+    color: aliceblue;
+    margin-right: 1.898px;
+    margin-left: 1.898px;
+}
+
+.C:hover {
+    filter: brightness(120%);
+}
+
+.C:active {
+    filter: brightness(90%);
+}
+
+.result {
+    grid-area: result;
+    width: 280px;
+    height: 90px;
+    text-align: left;
+    line-height: 85px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    background: rgb(238, 255, 255);
+    border-radius: 5px;
+    margin-right: 1.898px;
+    margin-left: 1.898px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas: 
+    "one two three plus"
+    "four five six minus"
+    "seven eight nine mult"
+    "div ziro point equally";
+    /* grid-gap: 1%; */
+    justify-items: center;
+}
+
+.btn {
+    width: 90px;
+    height: 90px;
+    margin: 2%;
+    background: rgb(238, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 85px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
+/* ====ex3==== */
+
+.goHome {
+    position: fixed;
+    left: 1%;
+    border-radius: 30px;
+    width: 50px; 
+    top: 40%;
+    line-height: 85px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Back {
+    position: absolute;
+    width: 100px;
+}
+
+.home-text {
+    position: relative;
+    color: azure;
+    left: 20px;
+    bottom: 13px;
+    /* transform: rotate(20deg); */
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.eves {
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,124 @@
+body {
+    font-family:  Lucida Console, Courier, monospace;
+    background-color: #f1f5fa;
+}
+.wr1 input {
+    position: relative;
+    left: 20px;
+    background: transparent;
+    box-shadow: rgba(113, 113, 113, 0.15) -5px -5px 11px, rgba(0, 0, 0, 0.15) 5px 5px 11px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    text-indent: 20px;
+    color: #60676e;
+    font-size: 14px;
+    align-items: center;
+    font-family:  Lucida Console, Courier, monospace;
+}
+.wr2 input {
+    position: relative;
+    left: 20px;
+    background: transparent;
+    box-shadow: rgba(113, 113, 113, 0.15) -5px -5px 11px, rgba(0, 0, 0, 0.15) 5px 5px 11px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    text-indent: 20px;
+    color: #60676e;
+    font-size: 14px;
+    align-items: center;
+    font-family:  Lucida Console, Courier, monospace;
+}
+.wr1 {
+    position: relative;
+    left: 39px;
+}
+a.button15 {
+    position: relative;
+    left: 50px;
+    top: 20px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(229, 234, 241) linear-gradient(#d8e9f1, #e7f2f7);
+    transition: all .218s ease 0s;
+  }
+  a.button15:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(200, 211, 224);
+    background: #daecf1 linear-gradient(#c5e3f1, #c9e5f5);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  }
+  a.button15:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(202, 219, 238);
+    background: rgb(216, 232, 241) linear-gradient(rgb(207, 222, 243), rgb(213, 235, 238));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  }
+  #svesan {
+    display: block;
+    }
+  
+  #kemarketing-dalandscap {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    position: absolute;
+    font-size: 23px;
+    text-transform: uppercase;
+    padding: 15px 18px;
+    left: 50%;
+    width: 415px;
+    margin-left: -100px;
+    top: 50%;
+    border-radius: 7px;
+    color: #fbf9f9;
+    text-shadow: -2px -2px 2px rgba(16, 16, 16, 0.8);
+    border: 4px solid transparent;
+    border-bottom-color: rgba(12, 12, 12, 0.35);
+    background: hsla(260, 100%, 50%, 1);
+    cursor: pointer;
+    outline: 0 !important;
+  
+    animation: pulse 3s infinite alternate;
+    transition: background 0.5s, border 0.3s, margin 0.3s;
+    }
+    #kemarketing-dalandscap:hover {
+    background: hsla(220, 100%, 60%, 1);
+    margin-top: -1px;
+  
+    animation: none;
+    }
+    #kemarketing-dalandscap:active {
+    border-bottom-width: 0;
+    margin-top: 3px;
+    }
+    @keyframes pulse {
+    0% {
+    margin-top: 0px;
+    }
+    100% {
+    margin-top: 6px;  
+    }  
+    }
+  
+/* 
+.wr {
+    left: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: rgba(113, 113, 113, 0.15) -5px -5px 11px, rgba(0, 0, 0, 0.15) 5px 5px 11px;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+} */

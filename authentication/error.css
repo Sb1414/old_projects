@@ -1,0 +1,19 @@
+html {
+    background-color: black;
+}
+.abc {
+    position: fixed;
+    margin: auto 30%;
+    
+}
+.t{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 4px 4px 4px rgb(24, 24, 24);
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px auto;
+    background-color: rgb(43, 43, 44);
+}

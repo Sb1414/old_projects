@@ -1,0 +1,17 @@
+.t{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 4px 4px 4px gray;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px auto;
+    background-color: rgb(240, 224, 255);
+}
+.cat {
+    margin: 5px 34%;
+}
+.music {
+    margin: 5px 40%;
+}
